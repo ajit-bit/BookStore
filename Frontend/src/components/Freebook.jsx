@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import  { useEffect, useState } from "react";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -64,9 +64,7 @@ function Freebook() {
         <div>
           <h1 className="font-semibold text-xl pb-2">Free Offered Courses</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Accusantium veritatis alias pariatur ad dolor repudiandae eligendi
-            corporis nulla non suscipit, iure neque earum?
+            
           </p>
         </div>
 

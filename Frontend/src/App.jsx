@@ -1,4 +1,3 @@
-import React from "react";
 import Home from "./home/Home";
 import { Navigate, Route, Routes } from "react-router-dom";
 import Courses from "./courses/Courses";
@@ -7,8 +6,9 @@ import { Toaster } from "react-hot-toast";
 import { useAuth } from "./context/AuthProvider";
 
 function App() {
-  const [authUser, setAuthUser] = useAuth();
+  const [authUser] = useAuth(); // Only destructure authUser
   console.log(authUser);
+
   return (
     <>
       <div className="dark:bg-slate-900 dark:text-white">
